@@ -49,7 +49,7 @@ Pizza = sprites.create(img`
     4 d d d 4 4 4 . . . . . . . . . 
     4 4 4 4 . . . . . . . . . . . . 
     `, SpriteKind.Food)
-info.startCountdown(5)
+info.startCountdown(30)
 mySprite.setStayInScreen(true)
 Pizza.setStayInScreen(true)
 info.setScore(0)
