@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.58/---simulator","cdnUrl":"https://cdn.makecode.com","version":"0.0.7","target":"arcade","targetVersion":"1.12.58","repo":"sallyselva/pizza-yum"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.58/---simulator","cdnUrl":"https://cdn.makecode.com","version":"0.0.8","target":"arcade","targetVersion":"1.12.58","repo":"sallyselva/pizza-yum"}
 // total=1714020 new=5.45% cached=89.48% other=5.07%
 (function (ectx) {
 'use strict';
@@ -27,7 +27,7 @@ const __this = runtime;
 const pxtrt = pxsim.pxtrt;
 let yieldSteps = 1;
 ectx.setupYield(function() { yieldSteps = 100; })
-pxsim.setTitle("Pizza Yum-6");
+pxsim.setTitle("Pizza Yum-7");
 pxsim.setConfigData({
  "37": 160,
  "38": 120
@@ -528,7 +528,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P24133(s) {
+function _main___P24741(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1058,18 +1058,18 @@ switch (step) {
     r0 = s.retval;
     globals.CHANNEL___7312 = ("web");
     s.tmp_0 = info_onCountdownEnd__P2585_mk(s);
-    s.tmp_0.arg0 = inline__P23711;
+    s.tmp_0.arg0 = inline__P24577;
     s.callLocIdx = 88; s.pc = 56; return s.tmp_0;
   case 56:
     r0 = s.retval;
     s.tmp_0 = sprites_onOverlap__P2459_mk(s);
     s.tmp_0.arg0 = globals.Player___2481;
     s.tmp_0.arg1 = globals.Food___2483;
-    s.tmp_0.arg2 = inline__P23734;
+    s.tmp_0.arg2 = inline__P24600;
     s.callLocIdx = 91; s.pc = 57; return s.tmp_0;
   case 57:
     r0 = s.retval;
-    globals.Pizza___23740 = (null);
+    globals.Pizza___24606 = (null);
     s.tmp_0 = scene_setBackgroundColor__P2884_mk(s);
     s.tmp_0.arg0 = 7;
     s.callLocIdx = 92; s.pc = 58; return s.tmp_0;
@@ -1077,7 +1077,7 @@ switch (step) {
     r0 = s.retval;
     s.tmp_0 = sprites_create__P2276_mk(s);
     s.tmp_1 = helpers_getImageByName__P3337_mk(s);
-    s.tmp_1.arg0 = "myImage1";
+    s.tmp_1.arg0 = "myImage3";
     s.callLocIdx = 93; s.pc = 60; return s.tmp_1;
   case 60:
     r0 = s.retval;
@@ -1086,35 +1086,35 @@ switch (step) {
     s.callLocIdx = 94; s.pc = 59; return s.tmp_0;
   case 59:
     r0 = s.retval;
-    globals.mySprite___23748 = (r0);
+    globals.mySprite___24614 = (r0);
     s.tmp_0 = controller_moveSprite__P2168_mk(s);
-    s.tmp_0.arg0 = globals.mySprite___23748;
+    s.tmp_0.arg0 = globals.mySprite___24614;
     s.tmp_0.arg1 = 100;
     s.tmp_0.arg2 = 100;
     s.callLocIdx = 95; s.pc = 61; return s.tmp_0;
   case 61:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P2276_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex23758);
+    r0 = pxsim.image.ofBuffer(_hex24624);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Food___2483;
     s.callLocIdx = 96; s.pc = 62; return s.tmp_0;
   case 62:
     r0 = s.retval;
-    globals.Pizza___23740 = (r0);
+    globals.Pizza___24606 = (r0);
     s.tmp_0 = info_startCountdown__P2582_mk(s);
     s.tmp_0.arg0 = 30;
     s.callLocIdx = 97; s.pc = 63; return s.tmp_0;
   case 63:
     r0 = s.retval;
     s.tmp_0 = Sprite_setStayInScreen__P2418_mk(s);
-    s.tmp_0.arg0 = globals.mySprite___23748;
+    s.tmp_0.arg0 = globals.mySprite___24614;
     s.tmp_0.arg1 = true;
     s.callLocIdx = 98; s.pc = 64; return s.tmp_0;
   case 64:
     r0 = s.retval;
     s.tmp_0 = Sprite_setStayInScreen__P2418_mk(s);
-    s.tmp_0.arg0 = globals.Pizza___23740;
+    s.tmp_0.arg0 = globals.Pizza___24606;
     s.tmp_0.arg1 = true;
     s.callLocIdx = 99; s.pc = 65; return s.tmp_0;
   case 65:
@@ -1128,13 +1128,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P24133.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-text/main.ts","functionName":"<main>","argumentNames":[]}
-_main___P24133.continuations = [ 44,45,46,47 ]
+_main___P24741.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-text/main.ts","functionName":"<main>","argumentNames":[]}
+_main___P24741.continuations = [ 44,45,46,47 ]
 
-function _main___P24133_mk(s) {
+function _main___P24741_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P24133, depth: s.depth + 1,
+        parent: s, fn: _main___P24741, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -1163,7 +1163,7 @@ const _hex5429 = pxsim.BufferMethods.createBufferFromHex("8704200020000000000000
 const _hex5431 = pxsim.BufferMethods.createBufferFromHex("870420002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000cc00000000000000b0bbbbbbbbcb00c0cd000000000000001bddddddddbd0c1ccd000000000000b011cbccccccbc0c1ccd000000000000b01d6c666666bc0cbccd000000000000b01d6c616661bc0c1ccd000000000000b01d6c161666bccc1bcd000000000000b01d6c666166bcccbbcd000000000000b01d6c666666bccc1bcd000000000000b01d6c666661bccc1bcd000000000000b01d6c666661bcccbbcd000000000000b01d6c666661bccc1bcd000000000000b01d6c666666bc0c1ccd000000000000b01dcbccccccbc0cbccd000000000000c0b1bbbbbbbbbb0cdccb000000000000c0bbbbbbbbbbcb00dc0c00000000000000cccccccccc0c00cc000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
 const _hex5433 = pxsim.BufferMethods.createBufferFromHex("87042000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004004000000000000000000000000000054450000000000000000000000440b00bbbb00b0440000000000000040550b00000000b0550400000000000040b5000044bb00005b04000000000000b00b0044ddddbb00b00b0000000000000000405d55d5dd0b00000000000000000000d4555555ddbd0000000000000000000054555555d5bd0000000000000000b44055555555d5dd0b4b000000000040b54055555555d5dd0b5b040000000040b54055555555d5dd0b5b040000000000b44055115555d5dd0b4b000000000000000054115555d5bd00000000000000000000d4555555ddbd00000000000000000000405d55d5dd0b0000000000000000b00b0044ddddbb00b00b00000000000040b5000044bb00005b0400000000000040550b00000000b0550400000000000000440b00bbbb00b0440000000000000000000000544500000000000000000000000000004004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
 const _hex5435 = pxsim.BufferMethods.createBufferFromHex("870420002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbb00000000000000000000000000b055bb00bbbbbb000000000000000000b0b5bdbcbbbbddcb0000000000000000b0dbcb5b5555bbdd0c00000000000000b0cbdcbdbb5b55dbcd0000000000000000c0dddb11d15bb5bd0c00000000000000bbbd111111b155bb0c00000000000000db1b111111115bb5cb00000000000000db1bb11d1199b9d5cb00000000000000db1b11bb9199b955cb000000000000005b1b11b19b99995bcb000000000000005b1d1111bb99995ccb00000000000000b0b511bbbb99995ccb00000000000000b0d51d919999d95b0b00000000000000005bdb919999c9d50b0000000000000000b0d51b99d9bcb5000000000000000000005bd5bbbc550b00000000000000000000b05b5555bd000000000000000000000000b0bbbb00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex23758 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000bb440000000000bb5d4d00000000bb23534d000000bb5d22524d0000bb5d57235d0400b03d325555d504bb4b25225557d5044bbb3532555545004bb4555523534d004bb4545722524d00b0444b5523534d00004be45455d5040000b044ee55dd040000004be4deed00000000b0e4ee4e0000000000eeee040000")
+const _hex24624 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000bb440000000000bb5d4d00000000bb23534d000000bb5d22524d0000bb5d57235d0400b03d325555d504bb4b25225557d5044bbb3532555545004bb4555523534d004bb4545722524d00b0444b5523534d00004be45455d5040000b044ee55dd040000004be4deed00000000b0e4ee4e0000000000eeee040000")
 
 
 
@@ -1849,7 +1849,7 @@ function myImages_inline__P7306_mk(s) {
 
 
 
-function inline__P23711(s) {
+function inline__P24577(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1929,12 +1929,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P23711.info = {"start":20,"length":314,"line":0,"column":20,"endLine":7,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P24577.info = {"start":20,"length":314,"line":0,"column":20,"endLine":7,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P23711_mk(s) {
+function inline__P24577_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P23711, depth: s.depth + 1,
+        parent: s, fn: inline__P24577, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -1953,7 +1953,7 @@ function inline__P23711_mk(s) {
 
 
 
-function inline__P23734(s) {
+function inline__P24600(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1974,7 +1974,7 @@ switch (step) {
   case 1:
     r0 = s.retval;
     s.tmp_0 = Sprite_setPosition__P2410_mk(s);
-    s.tmp_0.arg0 = globals.Pizza___23740;
+    s.tmp_0.arg0 = globals.Pizza___24606;
     r0 = pxsim.Math_.randomRange(0, 160);
     s.tmp_0.arg1 = r0;
     r0 = pxsim.Math_.randomRange(0, 120);
@@ -1986,12 +1986,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P23734.info = {"start":390,"length":116,"line":8,"column":54,"endLine":11,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P24600.info = {"start":390,"length":116,"line":8,"column":54,"endLine":11,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P23734_mk(s) {
+function inline__P24600_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P23734, depth: s.depth + 1,
+        parent: s, fn: inline__P24600, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -58457,7 +58457,7 @@ const sprites_BaseSpriteSayRenderer__C2260_VT = mkVTable({
   },
 });
 
-const breakpoints = setupDebugger(1, ["Pizza___23740","mySprite___23748","CHANNEL___7312"])
+const breakpoints = setupDebugger(1, ["Pizza___24606","mySprite___24614","CHANNEL___7312"])
 
-return _main___P24133
+return _main___P24741
 })
