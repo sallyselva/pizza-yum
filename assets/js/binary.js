@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.58/---simulator","cdnUrl":"https://cdn.makecode.com","version":"0.0.9","target":"arcade","targetVersion":"1.12.58","repo":"sallyselva/pizza-yum"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.58/---simulator","cdnUrl":"https://cdn.makecode.com","version":"0.0.10","target":"arcade","targetVersion":"1.12.58","repo":"sallyselva/pizza-yum"}
 // total=1714020 new=5.45% cached=89.48% other=5.07%
 (function (ectx) {
 'use strict';
@@ -27,7 +27,7 @@ const __this = runtime;
 const pxtrt = pxsim.pxtrt;
 let yieldSteps = 1;
 ectx.setupYield(function() { yieldSteps = 100; })
-pxsim.setTitle("Pizza Yum-8");
+pxsim.setTitle("Pizza Yum-9");
 pxsim.setConfigData({
  "37": 160,
  "38": 120
@@ -528,7 +528,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P25091(s) {
+function _main___P25349(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1128,13 +1128,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P25091.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-text/main.ts","functionName":"<main>","argumentNames":[]}
-_main___P25091.continuations = [ 44,45,46,47 ]
+_main___P25349.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-text/main.ts","functionName":"<main>","argumentNames":[]}
+_main___P25349.continuations = [ 44,45,46,47 ]
 
-function _main___P25091_mk(s) {
+function _main___P25349_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P25091, depth: s.depth + 1,
+        parent: s, fn: _main___P25349, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -58459,5 +58459,5 @@ const sprites_BaseSpriteSayRenderer__C2260_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["Pizza___24913","mySprite___24921","CHANNEL___7312"])
 
-return _main___P25091
+return _main___P25349
 })
