@@ -12,7 +12,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 })
 let Pizza: Sprite = null
 scene.setBackgroundColor(7)
-let mySprite = sprites.create(assets.image`myImage4`, SpriteKind.Player)
+let mySprite = sprites.create(assets.image`myImage2`, SpriteKind.Player)
 controller.moveSprite(mySprite)
 Pizza = sprites.create(img`
     . . . . . . b b b b . . . . . .
